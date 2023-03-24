@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lilita One';
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #212121;
+}
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5px;
+    height: 35px;
+    padding: 0 20px;
+}
+.pagination .page{
+    height: 32px;
+    width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #dbceff;
+    margin: 0 5px;
+    color: #212121;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 3ms;
+    border: 1px solid purple;
+}
+.pagination .page:hover{
+    background-color: #7449e9;
+    filter: brightness(.8);
+}
+.pagination .control{
+    color: #212121;
+    font-weight: 600;
+    cursor: pointer;
+}
+.pagination .control.prev{
+    margin-right: 4px;
+}
+.pagination .control.next{
+    margin-left: 4px;
+}
